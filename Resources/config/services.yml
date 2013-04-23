@@ -1,4 +1,4 @@
-    parameters:
+parameters:
     chewbacco_payment_qiwi_wallet.form.qiwi_wallet_type.class: Chewbacco\Payment\QiwiWalletBundle\Form\QiwiWalletType
     chewbacco_payment_qiwi_wallet.client.class: Werkint\Qiwi\Client
     chewbacco_payment_qiwi_wallet.client.options.trace: true
@@ -23,4 +23,3 @@ services:
         arguments: 
             - %chewbacco_payment_qiwi_wallet.login%
             - %chewbacco_payment_qiwi_wallet.password% 
-

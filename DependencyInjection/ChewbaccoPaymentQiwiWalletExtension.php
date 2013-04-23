@@ -26,15 +26,15 @@ class ChewbaccoPaymentQiwiWalletExtension extends Extension
         $loader->load('services.yml');
 
         if (!isset($config['login'])) {
-            throw new \InvalidArgumentException('The "chewbaccо_payment_qiwi_wallet.login" option must be set');
+            throw new \InvalidArgumentException('The "chewbacco_payment_qiwi_wallet.login" option must be set');
         }
         if (!isset($config['password'])) {
-            throw new \InvalidArgumentException('The "chewbaccо_payment_qiwi_wallet.password" option must be set');
+            throw new \InvalidArgumentException('The "chewbacco_payment_qiwi_wallet.password" option must be set');
         }
 
-        $container->setParameter('chewbaccо_payment_qiwi_wallet.login', $config['login']);
-        $container->setParameter('chewbaccо_payment_qiwi_wallet.password', $config['password']);
-        $container->setParameter('chewbaccо_payment_qiwi_wallet.return_url', $config['return_url']);
+        $container->setParameter('chewbacco_payment_qiwi_wallet.login', $config['login']);
+        $container->setParameter('chewbacco_payment_qiwi_wallet.password', $config['password']);
+        $container->setParameter('chewbacco_payment_qiwi_wallet.return_url', $config['return_url']);
 
     }
 }

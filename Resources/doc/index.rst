@@ -11,12 +11,9 @@ Configuration
 ::
 
     // YAML
-    jms_payment_paypal:
-        username: your api username (not your account username)
-        password: your api password (not your account password)
-        signature: your api signature
-        debug: true/false # when true, connect to PayPal sandbox; uses kernel debug value when not specified
-
+    chewbacco_payment_qiwi_wallet:
+        login: your api login
+        password: your api password 
 
 =====
 Usage

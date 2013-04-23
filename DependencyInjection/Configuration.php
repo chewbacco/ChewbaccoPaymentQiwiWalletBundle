@@ -18,7 +18,8 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('chewbaccо_payment_qiwi_wallet');
+        $rootNode = $treeBuilder->root('chewbacco_payment_qiwi_wallet');
+
         $rootNode
                 //->setInfo('qiwi payment configuration')
                 ->canBeUnset()
