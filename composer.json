@@ -23,8 +23,8 @@
   },
   "autoload": {
     "psr-0": {
-      "Chewbacca\\Payment\\QiwiWalletBundle": ""
+      "Chewbacco\Payment\\QiwiWalletBundle": ""
     }
   },
-  "target-dir": "Chewbacca/Payment/QiwiWalletBundle"
+  "target-dir": "Chewbacco/Payment/QiwiWalletBundle"
 }
