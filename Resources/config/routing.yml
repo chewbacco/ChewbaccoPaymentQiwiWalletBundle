@@ -1,0 +1,3 @@
+chewbacco_payment_qiwi_wallet_server:
+    pattern:  /qiwi_server/
+    defaults: { _controller: ChewbaccoPaymentQiwiWalletBundle:Server:index }
