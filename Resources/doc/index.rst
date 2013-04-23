@@ -9,21 +9,20 @@ as well even if you don't want to use its persistence capabilities.
 Configuration
 -------------
 
-	config.yml
 ::
 
-    // YAML
+    // config.yml
     chewbacco_payment_qiwi_wallet:
         login: your username 
         password: your password 
 
-    routing.yml
+
 ::
 
-	// YAML
-	chewbacco_payment_qiwi_wallet:
-	   resource: "@ChewbaccoPaymentQiwiWalletBundle/Resources/config/routing.yml"
-	   prefix:   /chewbacco/payment/qiwi_wallet
+    // routing.yml
+    chewbacco_payment_qiwi_wallet:
+        resource: "@ChewbaccoPaymentQiwiWalletBundle/Resources/config/routing.yml" 
+        prefix:   /chewbacco/payment/qiwi_wallet
 
 =====
 Usage
