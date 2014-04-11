@@ -14,7 +14,7 @@ To install ChewbaccoPaymentQiwiWalletBundle with Composer just add the following
         // ...
         require: {
             // ...
-            "chewbacco/chewbacco-payment-qiwi-wallet-bundle": "master-dev"
+            "chewbacco/payment-qiwi-wallet-bundle": "master-dev"
         }
     }
     
