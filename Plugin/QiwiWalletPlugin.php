@@ -78,7 +78,7 @@ class QiwiWalletPlugin extends AbstractPlugin
             $bill = $this->client->createBill(
                 preg_replace('~[\D]~', '', $data->get('number')),
                 $transaction->getRequestedAmount(),
-                $transaction->getPayment()->getPaymentInstruction()->getId(),
+                $transaction->getPayment()->getId(),
                 $data->get('comment'),
                 $data->get('lifetime'),
                 $data->get('alarm'),
